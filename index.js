@@ -15,6 +15,12 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
+app.get('/login', function (request, response) {
+  console.log('login');
+  response.render('pages/login');
+  response.send('fjdfj')
+})
+
 app.get('/cool', function(request, response) {
   response.send(cool());
 });
