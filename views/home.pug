@@ -1,0 +1,52 @@
+extends layout
+
+append content
+  body.hold-transition.skin-blue.sidebar-mini
+    div.wrapper
+    block view
+      div.content-wrapper
+        section.content-header
+          h1 仪表盘
+           small 信息概括
+          ol.breadcrumb
+            li: a
+              | <i class="fa fa-dashboard"></i>主页
+            li.active 仪表盘
+        section.content
+          div.row
+            div.col-lg-3.col-xs-6
+              div.small-box.bg-aqua
+                div.inner
+                  h3 150
+                  p 剩余课程
+                div.icon
+                  i.ion.ion-bag
+                a.small-box-footer More info 
+                  i.fa.fa-arrow-circle-right
+            div.col-lg-3.col-xs-6
+              div.small-box.bg-green
+                div.inner
+                  h3 152
+                  p 会员数量
+                div.icon
+                  i.ion.ion-bag
+                a.small-box-footer More info 
+                  i.fa.fa-arrow-circle-right
+            div.col-lg-3.col-xs-6
+              div.small-box.bg-yellow
+                div.inner
+                  h3 44
+                  p 学生数量
+                div.icon
+                  i.ion.ion-bag
+                a.small-box-footer More info 
+                  i.fa.fa-arrow-circle-right
+            div.col-lg-3.col-xs-6
+              div.small-box.bg-red
+                div.inner
+                  h3 65
+                  p 统计
+                div.icon
+                  i.ion.ion-bag
+                a.small-box-footer More info 
+                  i.fa.fa-arrow-circle-right
